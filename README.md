@@ -12,4 +12,5 @@
   ## Contributor page
   ![image](https://user-images.githubusercontent.com/111000515/208694109-69b54727-596e-41a8-830b-0b207f2058f5.png)
   ## Functionalities Given
-  ![Uploading image.png…]()
+  ![image](https://user-images.githubusercontent.com/111000515/208694399-a1b3ce5d-c14f-410d-bcda-caef09ee8407.png)
+
