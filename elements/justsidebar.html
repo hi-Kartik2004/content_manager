@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="dropdown-scroll.css" />
+    <!-- Boxiocns CDN Link -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    
+    <div class="wrapper">
+      <div class="sidebar">
+        <div class="logo-details">
+          <i class="bx bx-rocket"></i>
+          
+          <span class="logo_name">Starthub</span>
+      
+        </div>
+        <ul class="nav-links">
+          <li>
+            <a href="index.php">
+              <i class="bx bx-grid-alt"></i>
+              <span class="link_name">Dashboard</span>
+            </a>
+            <ul class="sub-menu blank">
+              <li><a class="link_name" href="index.php">Dashboard</a></li>
+            </ul>
+          </li>
+          <li>
+            <div class="icon-link">
+              <a href="#">
+                <i class="bx bx-collection"></i>
+                <span class="link_name">Notes</span>
+              </a>
+              <i class="bx bxs-chevron-down arrow"></i>
+            </div>
+            <ul class="sub-menu">
+              <li><a class="link_name" href="#">Notes</a></li>
+              <li><a href="notes_pcycle.php">P cycle</a></li>
+              <li><a href="notes_ccycle.php">C cycle</a></li>
+              <!-- <li><a href="#"></a></li> -->
+            </ul>
+          </li>
+          <li>
+            <div class="icon-link">
+              <a href="#">
+                <i class="bx bx-book-alt"></i>
+                <span class="link_name">PYQ's</span>
+              </a>
+              <i class="bx bxs-chevron-down arrow"></i>
+            </div>
+            <ul class="sub-menu">
+              <li><a class="link_name" href="#">PYQ's</a></li>
+              <li><a href="p_cycle_pyq.php">P cycle</a></li>
+              <li><a href="c_cycle_pyq.php">C cycle</a></li>
+              <!-- <li><a href="#"></a></li> -->
+            </ul>
+          </li>
+
+          <li>
+            <div class="icon-link">
+              <a href="#">
+                <i class="bx bx-plug"></i>
+                <span class="link_name">Resources</span>
+              </a>
+              <i class="bx bxs-chevron-down arrow"></i>
+            </div>
+            <ul class="sub-menu">
+              <li><a class="link_name" href="#">Resources</a></li>
+              <li><a href="#">Web Dev resources</a></li>
+              <li><a href="#">App Dev resources</a></li>
+              <li><a href="#">CP resources</a></li>
+              <li><a href="#">Contest Updates</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <div class="icon-link">
+              <a href="post.php">
+                <i class="bx bx-book-alt"></i>
+                <span class="link_name">Posts</span>
+              </a>
+              <i class="bx bxs-chevron-down arrow"></i>
+            </div>
+            <ul class="sub-menu">
+              <li><a class="link_name" href="#">Posts</a></li>
+              <li><a href="#">Web Design</a></li>
+              <li><a href="#">Login Form</a></li>
+              <li><a href="#">Card Design</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="tech_talk.php">
+              <i class="bx bx-pie-chart-alt-2"></i>
+              <span class="link_name">Tech Talks</span>
+            </a>
+            <ul class="sub-menu blank">
+              <li><a class="link_name" href="tech_talk.php">Tech talks</a></li>
+            </ul>
+          </li>
+          <li>
+            <div class="icon-link">
+              <a href="#">
+                <i class="bx bx-line-chart"></i>
+                <span class="link_name">Predict gpa </span>
+              </a>
+              <i class="bx bxs-chevron-down arrow"></i>
+            </div>
+            <ul class="sub-menu">
+              <li><a class="link_name" href="#">Predict Gpa</a></li>
+              <li><a href="gpa.php?fromgpa">C Cycle</a></li>
+              <li><a href="gpa2.php?fromgpa">P Cycle</a></li>
+              <!-- <li><a href="#">Card Design</a></li> -->
+            </ul>
+          </li>
+
+          <li>
+            <div class="icon-link">
+              <a href="#">
+                <i class="bx bx-compass"></i>
+                <span class="link_name">Explore</span>
+              </a>
+              <i class="bx bxs-chevron-down arrow"></i>
+            </div>
+            <ul class="sub-menu">
+              <li><a class="link_name" href="#">Explore</a></li>
+              
+              <li><a href="#">Games <i class="bx bxs-chevron-down arrow"></i></a>
+                
+            <ul>
+                <li><a href="https://codenames.game/" target="_blank">Codenames</a></li>
+                <li><a href="https://secrethitler.io/" target="_blank">The Secret Hitler</a></li>
+                <li><a href="https://skribbl.io/" target="_blank">skribbl.io</a></li>
+                <li><a href="https://lichess.org/" target="_blank">Lichess</a></li>
+                <li><a href="https://www.nytimes.com/games/wordle/index.html" target="_blank">Wordle</a></li>
+            </li>
+            </ul>
+              <li><a href="event.php">Event Updates</a></li>
+              <li><a href="show_academic_updates.php">Academic updates</a></li>
+              <li><a href="confess.php">Confessions</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="setting.php">
+              <i class="bx bx-cog"></i>
+              <span class="link_name" href="setting.php">Setting</span>
+            </a>
+            <ul class="sub-menu blank">
+              <li><a class="link_name" href="setting.php">Setting</a></li>
+            </ul>
+          </li>
+          <li>
+            <div class="profile-details">
+              <div class="profile-content"></div>
+              <div class="name-job">
+                <div class="profile_name">Kartikeya Saini</div>
+                <div class="job">1st year student</div>
+              </div>
+              <i class="bx bx-log-out"></i>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <section class="home-section">
+        <div class="home-content">
+          <i class="bx bx-menu"></i>
+          <a href="index.php">
+          <span class="text">Starthub</span>
+        </a>
+        </div>
+
+    <script>
+      let arrow = document.querySelectorAll(".arrow");
+      for (var i = 0; i < arrow.length; i++) {
+        arrow[i].addEventListener("click", (e) => {
+          let arrowParent = e.target.parentElement.parentElement; //selecting main parent of arrow
+          arrowParent.classList.toggle("showMenu");
+        });
+      }
+      let sidebar = document.querySelector(".sidebar");
+      let sidebarBtn = document.querySelector(".bx-menu");
+      console.log(sidebarBtn);
+      /* sidebarBtn.addEventListener("click", () => {
+      sidebar.classList.toggle("close");
+    }); */
+      $(function () {
+        /* console.log("width: "+ document.body.clientWidth); */
+
+        resizeScreen();
+        $(window).resize(function () {
+          resizeScreen();
+        });
+        $(".bx-menu").click(function () {
+          // 點選選單按鈕時，大螢幕為新增或移除.close，小螢幕新增或移除.small-screen預設有.close，
+          if (document.body.clientWidth > 400) {
+            $(".sidebar").toggleClass("close");
+          } else {
+            $(".sidebar").toggleClass("small-screen");
+          }
+        });
+
+        function resizeScreen() {
+          // 大螢幕.sidebar預設為沒有.close，小螢幕.sidebar預設為有.close
+          if (document.body.clientWidth < 400) {
+            $(".sidebar").addClass("close");
+          } else {
+            $(".sidebar").removeClass("close");
+          }
+        }
+      });
+    </script>
+  </body>
+</html>
